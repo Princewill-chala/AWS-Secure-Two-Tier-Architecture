@@ -77,6 +77,7 @@ Backend Server
 - Ubuntu 22.04
 - Instance type: t2.micro
 - Public IP disabled
+![backend_noIP](AWS_2tier_Architecture_images/backendserver_ec2.png)
 
 ---
 
