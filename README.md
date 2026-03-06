@@ -3,10 +3,10 @@
 
 
 ## Table of contents
-- [Overview](#overview)
+- [Overview](#project-overview)
 - [Architecture Explanation](#architecture)
-- [Steps Taken](#implementation_steps)
-- [Security Considerations](#security_considerations)
+- [Steps Taken](#implementation-steps)
+- [Security Considerations](#security-considerations)
 
 ## Project Overview
 
