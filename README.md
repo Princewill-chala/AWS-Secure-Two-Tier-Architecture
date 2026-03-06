@@ -3,10 +3,10 @@
 
 
 ## Table of contents
-- [Project Overview](#Overview)
+- [Overview](#overview)
 - [Architecture Explanation](#architecture)
-- [Steps Taken](#steps-performed)
-- [Security Configuration](#security-configuration-instructions)
+- [Steps Taken](#implementation_steps)
+- [Security Considerations](#security_considerations)
 
 ## Project Overview
 
@@ -95,11 +95,15 @@ Direct SSH access from the local machine to the backend server was not possible 
 
 Apache web server was installed on the web server to serve web pages. MySQL database server was installed on the backend server to simulate backend services.
 
+![apache_page](AWS_2tier_Architecture_images/apache.png)
+![mysql_status](AWS_2tier_Architecture_images/mysql_service_status.png)
+
 ---
 
 ## Security Considerations
 
 Security groups were configured according to the principle of least privilege. The backend server was deployed without a public IP address to prevent direct internet access. Communication between servers was restricted to only necessary ports, ensuring that the architecture remains secure and isolated.
+
 
 ---
 
@@ -108,8 +112,3 @@ Security groups were configured according to the principle of least privilege. T
 The web server was successfully accessed via a web browser using its public IP address. Attempts to access the backend server directly from the internet failed, confirming that the backend server remained isolated and protected.
 
 ---
-
-## Author
-
-AWS Cloud Computing Project
-Secure Two-Tier Architecture
