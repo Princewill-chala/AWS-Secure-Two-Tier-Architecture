@@ -87,6 +87,7 @@ SSH access was first established to the web server from the local machine. From 
 ![web_ssh](AWS_2tier_Architecture_images/webserver_ssh.png)
 
 Direct SSH access from the local machine to the backend server was not possible due to security group restrictions.
+![backend_error](AWS_2tier_Architecture_images/ssh_backend_error.png)
 
 ---
 
