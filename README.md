@@ -1,4 +1,5 @@
 # AWS-Secure-Two-Tier-Architecture
+![background_image](AWS_2tier_Architecture_images/image(1).jpg)
 
 
 ## Table of contents
