@@ -53,6 +53,7 @@ Two security groups were created:
 Web Server Security Group:
 - HTTP (Port 80) allowed from anywhere
 - SSH (Port 22) allowed only from the student's IP
+![webserver_sg](AWS_2tier_Architecture_images/webserver_sg.png)
 
 Backend Server Security Group:
 - SSH (Port 22) allowed only from the Web Server Security Group
