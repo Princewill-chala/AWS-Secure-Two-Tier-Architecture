@@ -84,6 +84,7 @@ Backend Server
 ### 3. Secure Server Access
 
 SSH access was first established to the web server from the local machine. From the web server, SSH was used to access the backend server via its private IP address.
+![web_ssh](AWS_2tier_Architecture_images/webserver_ssh.png)
 
 Direct SSH access from the local machine to the backend server was not possible due to security group restrictions.
 
