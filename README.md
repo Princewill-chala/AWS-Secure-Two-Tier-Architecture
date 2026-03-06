@@ -1,7 +1,11 @@
 # AWS-Secure-Two-Tier-Architecture
-This project demonstrates the design and implementation of a secure two-tier architecture on AWS. The infastructure separates the application into two layers: a public web tier and a private backend tier, improving security and network isolation.
 
-# Design and Implementation of a Secure Two-Tier Architecture on AWS
+
+## Table of contents
+- [Project Overview](#Overview)
+- [Architecture Explanation](#architecture)
+- [Steps Taken](#steps-performed)
+- [Security Configuration](#security-configuration-instructions)
 
 ## Project Overview
 
@@ -13,6 +17,7 @@ The goal is to ensure that the backend server remains inaccessible from the inte
 
 ## Architecture
 
+```
 Internet
 │
 ▼
@@ -22,6 +27,7 @@ Public EC2 (Web Server)
 Private EC2 (Backend Server)
 
 The web server is publicly accessible, while the backend server is protected and only accessible through the web server.
+```
 
 ---
 
