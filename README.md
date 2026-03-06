@@ -57,6 +57,7 @@ Web Server Security Group:
 
 Backend Server Security Group:
 - SSH (Port 22) allowed only from the Web Server Security Group
+![backendserver_sg](AWS_2tier_Architecture_images/backend_server_sg.png)
 
 This ensures controlled communication between servers.
 
