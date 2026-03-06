@@ -71,6 +71,7 @@ Web Server
 - Ubuntu 22.04
 - Instance type: t2.micro
 - Public IP enabled
+![ec2_webserver](AWS_2tier_Architecture_images/webserver_ec2.png)
 
 Backend Server
 - Ubuntu 22.04
